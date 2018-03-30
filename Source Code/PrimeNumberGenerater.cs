@@ -53,28 +53,4 @@ namespace PrimeNumberGenerater
             return result;
         }
     }
-    //class Program
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        Console.WriteLine("||***Welcome to Prime Number Generator***||");
-    //        Console.WriteLine("Enter start number(numeric value):");
-    //        string num1 = (Console.ReadLine());
-    //        Console.WriteLine("Enter end number(numeric value):");
-    //        string num2 = (Console.ReadLine());
-    //        if (Regex.IsMatch(num1, @"^[0-9]+$") && Regex.IsMatch(num2, @"^[0-9]+$"))
-    //        {
-    //            PrimeNumber obj = new PrimeNumber();
-    //            if(obj.generate(Convert.ToInt32(num1), Convert.ToInt32(num2)).Count == 0)
-    //                Console.WriteLine("No Prime Numbers between " + num1 + " to " + num2);
-    //            else
-    //                Console.WriteLine("Prime Numbers between " + num1 + " to " + num2 + " = " + string.Join(",", obj.generate(Convert.ToInt32(num1), Convert.ToInt32(num2))));
-    //        }
-    //        else
-    //        {
-    //            Console.WriteLine("Enter the valid numeric input!!!");
-    //        }
-    //        Console.Read();
-    //    }
-    //}
 }
