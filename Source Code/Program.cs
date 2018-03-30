@@ -23,7 +23,6 @@ namespace PrimeNumberTestDrivenusingSelenium
                     excel.Workbook x1WorkBook = x1Appl.Workbooks.Open(@"C:\PrimeNumberTestDrivenusingSelenium\TestCase_Input.xlsx");
                     excel._Worksheet x1WorkSheet = x1WorkBook.Sheets[1];
                     excel.Range x1Range = x1WorkSheet.UsedRange;
-                    PrimeNumber objPrimeNumber = new PrimeNumber();
                     for (int i = 2; i <= Convert.ToInt32(x1Range.Rows.Cells[8, 3].value) + 1; i++)
                     {
                         if (CheckPrimeNumber(x1Range.Rows.Cells[i, 2].Text, x1Range.Rows.Cells[i, 3].Text) == x1Range.Rows.Cells[i, 4].Text)
