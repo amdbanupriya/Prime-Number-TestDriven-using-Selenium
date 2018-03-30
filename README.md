@@ -1,5 +1,17 @@
 # Prime-Number-TestDriven-application-using-Selenium
 
+A prime number generator that returns an ordered list of all prime numbers in a given range (inclusive of the endpoints).
+
+Below Interface has been added in the code: 
+```
+Interface PrimeNumberGenerator
+{
+List<Integer> generate(int startingValue, int endingValue);
+boolean isPrime(int value);
+}
+```
+*Note: All unit tests cases are pass as well as provide 100% code coverage.*
+
 File Details:
 <br />
 **>> `Folder: Execution File`**<br />
